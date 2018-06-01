@@ -1,0 +1,238 @@
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.Compression.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\VBCSCompiler.exe
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\ApplicationInsights.config
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\PickAndPickup.dll.config
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\PickAndPickup.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\PickAndPickup.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csc.exe
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csc.exe.config
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csc.rsp
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csi.exe
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csi.exe.config
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csi.rsp
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.AppContext.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Console.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Claims.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.ValueTuple.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\vbc.exe
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\vbc.exe.config
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\vbc.rsp
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Antlr3.Runtime.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\CommonServiceLocator.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\DAL.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.Web.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Newtonsoft.Json.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Helpers.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Mvc.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Optimization.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Razor.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.Razor.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Abstractions.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Configuration.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Container.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Interception.Configuration.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Interception.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Mvc5.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.RegistrationByConvention.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.ServiceLocation.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\WebGrease.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\EntityFramework.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\DAL.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\DAL.dll.config
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\CommonServiceLocator.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Helpers.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Mvc.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Optimization.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Razor.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.Razor.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Abstractions.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Configuration.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Container.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Interception.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Interception.Configuration.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.RegistrationByConvention.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.ServiceLocation.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Antlr3.Runtime.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Newtonsoft.Json.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.Web.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\EntityFramework.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.csprojResolveAssemblyReference.cache
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.csproj.CoreCompileInputs.cache
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.csproj.CopyComplete
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\EntityFramework.SqlServer.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\EntityFramework.SqlServer.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\PagedList.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\PagedList.Mvc.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\PagedList.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\PickAndPickup\PickAndPickup\PickAndPickup\bin\PagedList.Mvc.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\EntityFramework.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\ApplicationInsights.config
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\PickAndPickup.dll.config
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\PickAndPickup.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\PickAndPickup.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csc.exe
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csc.exe.config
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csc.rsp
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csi.exe
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csi.exe.config
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\csi.rsp
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.AppContext.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Collections.Immutable.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Console.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Diagnostics.Process.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.Compression.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.FileSystem.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.IO.Pipes.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Reflection.Metadata.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.AccessControl.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Claims.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Threading.Thread.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.ValueTuple.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Xml.XPath.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\vbc.exe
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\vbc.exe.config
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\vbc.rsp
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\VBCSCompiler.exe
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\roslyn\VBCSCompiler.exe.config
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Antlr3.Runtime.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\CommonServiceLocator.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\DAL.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\EntityFramework.SqlServer.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.DependencyCollector.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.Web.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.WindowsServer.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.ApplicationInsights.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.Web.Infrastructure.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Newtonsoft.Json.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\PagedList.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\PagedList.Mvc.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Helpers.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Mvc.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Optimization.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Razor.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.Deployment.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.Razor.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Abstractions.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Configuration.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Container.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Interception.Configuration.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Interception.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Mvc5.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.RegistrationByConvention.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.ServiceLocation.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\WebGrease.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\DAL.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\DAL.dll.config
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\CommonServiceLocator.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\EntityFramework.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\EntityFramework.SqlServer.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\PagedList.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\PagedList.Mvc.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Helpers.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Mvc.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Optimization.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.Razor.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.Deployment.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\System.Web.WebPages.Razor.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Abstractions.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Configuration.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Container.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Interception.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.Interception.Configuration.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.RegistrationByConvention.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Unity.ServiceLocation.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Antlr3.Runtime.pdb
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Newtonsoft.Json.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.ApplicationInsights.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.DependencyCollector.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.WindowsServer.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\bin\Microsoft.AI.Web.xml
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.csprojAssemblyReference.cache
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.csproj.CoreCompileInputs.cache
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.csproj.CopyComplete
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.dll
+D:\Matei\PickAndPickup\PickAndPickup\PickAndPickup\obj\Debug\PickAndPickup.pdb

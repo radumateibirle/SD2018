@@ -1,0 +1,18 @@
+D:\Andrei\Scoala\matei\Assignment3\BLL\bin\Release\BLL.dll
+D:\Andrei\Scoala\matei\Assignment3\BLL\bin\Release\BLL.pdb
+D:\Andrei\Scoala\matei\Assignment3\BLL\bin\Release\Newtonsoft.Json.dll
+D:\Andrei\Scoala\matei\Assignment3\BLL\bin\Release\Newtonsoft.Json.xml
+D:\Andrei\Scoala\matei\Assignment3\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+D:\Andrei\Scoala\matei\Assignment3\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+D:\Andrei\Scoala\matei\Assignment3\BLL\obj\Release\BLL.csproj.CopyComplete
+D:\Andrei\Scoala\matei\Assignment3\BLL\obj\Release\BLL.dll
+D:\Andrei\Scoala\matei\Assignment3\BLL\obj\Release\BLL.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\bin\Release\BLL.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\bin\Release\BLL.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\bin\Release\Newtonsoft.Json.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\bin\Release\Newtonsoft.Json.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\obj\Release\BLL.csproj.CopyComplete
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\obj\Release\BLL.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\BLL\obj\Release\BLL.pdb

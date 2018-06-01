@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Assignment2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Assignments">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LaboratoryID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Deadline" Type="datetime" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Attendances">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LaboratoryID" Type="int" Nullable="false" />
+    <Property Name="StudentID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Laboratories">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Curricula" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Date" Type="datetime" Nullable="false" />
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Submissions">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AssignmentID" Type="int" Nullable="false" />
+    <Property Name="StudentID" Type="int" Nullable="false" />
+    <Property Name="GitLink" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="200" />
+    <Property Name="Grade" Type="decimal" Precision="5" Scale="2" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Password" Type="nvarchar" MaxLength="50" />
+    <Property Name="Token" Type="nvarchar" MaxLength="128" />
+    <Property Name="GroupName" Type="nvarchar" MaxLength="10" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hobby" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Assignments_Laboratories">
+    <End Role="Laboratories" Type="Self.Laboratories" Multiplicity="1" />
+    <End Role="Assignments" Type="Self.Assignments" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Laboratories">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Assignments">
+        <PropertyRef Name="LaboratoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Attendances_Laboratories">
+    <End Role="Laboratories" Type="Self.Laboratories" Multiplicity="1" />
+    <End Role="Attendances" Type="Self.Attendances" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Laboratories">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Attendances">
+        <PropertyRef Name="LaboratoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Attendances_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Attendances" Type="Self.Attendances" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Attendances">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Submissions_Assignments">
+    <End Role="Assignments" Type="Self.Assignments" Multiplicity="1" />
+    <End Role="Submissions" Type="Self.Submissions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Assignments">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Submissions">
+        <PropertyRef Name="AssignmentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Submissions_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Submissions" Type="Self.Submissions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Submissions">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Assignment2ModelStoreContainer">
+    <EntitySet Name="Assignments" EntityType="Self.Assignments" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Attendances" EntityType="Self.Attendances" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Laboratories" EntityType="Self.Laboratories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Submissions" EntityType="Self.Submissions" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Assignments_Laboratories" Association="Self.FK_Assignments_Laboratories">
+      <End Role="Laboratories" EntitySet="Laboratories" />
+      <End Role="Assignments" EntitySet="Assignments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Attendances_Laboratories" Association="Self.FK_Attendances_Laboratories">
+      <End Role="Laboratories" EntitySet="Laboratories" />
+      <End Role="Attendances" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Attendances_Users" Association="Self.FK_Attendances_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Attendances" EntitySet="Attendances" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Submissions_Assignments" Association="Self.FK_Submissions_Assignments">
+      <End Role="Assignments" EntitySet="Assignments" />
+      <End Role="Submissions" EntitySet="Submissions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Submissions_Users" Association="Self.FK_Submissions_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Submissions" EntitySet="Submissions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

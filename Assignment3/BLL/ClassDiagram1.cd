@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLL.AssignmentServices" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAoEAAA=</HashCode>
+      <FileName>AssignmentServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.AttendanceServices" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAoEAAA=</HashCode>
+      <FileName>AttendanceServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.HomeService" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAgAAAA=</HashCode>
+      <FileName>HomeService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.LaboratoryServices" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgIAAAEAAAAAAAAAAAAAAAAAoEAAA=</HashCode>
+      <FileName>LaboratoryServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.SubmissionServices" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAgAAAAAAAAEAAAAAAAAAAoEAAA=</HashCode>
+      <FileName>SubmissionServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.UserServices" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAoEAAA=</HashCode>
+      <FileName>UserServices.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.AssignmentModel" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAQAAAgAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Models\AssignmentModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.AssignmentModelAPI" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAgAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Models\AssignmentModelAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.AttendanceModel" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\AttendanceModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.AttendanceModelAPI" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\AttendanceModelAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.LaboratoryModel" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggEAAAEAAAAAEAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LaboratoryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.LaboratoryModelAPI" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAEAAAAAEAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LaboratoryModelAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.SubmissionModel" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAQAECAAA=</HashCode>
+      <FileName>Models\SubmissionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.SubmissionModelAPI" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAQAECAAA=</HashCode>
+      <FileName>Models\SubmissionModelAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.UserModel" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgIAAAAAAAAAAAAAAAAQCAQAAAAABAAE=</HashCode>
+      <FileName>Models\UserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.Models.UserModelAPI" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAIAAAAAAAAAAAAAAAAQCAAAAAAAAAAE=</HashCode>
+      <FileName>Models\UserModelAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

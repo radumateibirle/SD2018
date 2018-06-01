@@ -1,0 +1,76 @@
+﻿@model PickAndPickup.Models.OrderModel
+@{
+    ViewBag.Title = "Scan";
+}
+
+<h2>Order</h2>
+<h2>Index</h2>
+
+<div class="container-fluid">
+    <table class="table">
+        <tr>
+            <th>
+                Client name
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Code
+            </th>
+            <th>
+                Estimated time
+            </th>
+            <th>
+                Meals
+            </th>
+            <th>
+                Total price
+            </th>
+            <th></th>
+        </tr>
+        @Html.HiddenFor(a => Model.ID)
+        <tr>
+            <td>
+                @Html.DisplayFor(a => Model.User.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(a => Model.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(a => Model.QRCodePath)
+            </td>
+            <td>
+                @Html.DisplayFor(a => Model.EstimatedTime)
+            </td>
+            <td>
+                <table>
+                    @foreach (var meal in Model.Meals)
+                    {
+                        @Html.HiddenFor(a => meal.ID)
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(a => meal.Quantity)
+                                X
+                                @Html.DisplayFor(a => meal.Name)
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </td>
+
+            <td>
+                @Html.DisplayFor(a => Model.TotalPrice) RON
+            </td>
+            <td>
+                @Html.ActionLink("Edit meals", "EditMeals", new { i = Model.ID })
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { i = Model.ID })
+            </td>
+
+        </tr>
+    </table>
+</div>
+

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment3.AssignmentsCRUD" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAASAIIBAAAACAAAACAAgAIAAAhACsQDBAIAI=</HashCode>
+      <FileName>AssignmentsCRUD.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sS" />
+      <Field Name="aS" />
+      <Field Name="uS" />
+      <Field Name="lS" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="users" />
+      <Field Name="labs" />
+      <Field Name="assigns" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assignment3.AttendanceCRUD" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAAACAAABAAAAKAAAACAAggAAAAhACkQABAAAI=</HashCode>
+      <FileName>AttendanceCRUD.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="aS" />
+      <Field Name="lS" />
+      <Field Name="uS" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="labs" />
+      <Field Name="users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assignment3.CreateSubmission" Collapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAEAAiAAABAAAACAAAACAAAAAAAAgAAgAAAAAAA=</HashCode>
+      <FileName>CreateSubmission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment3.LaboratoriesCRUD" Collapsed="true">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAASAAADAAAACBAAACAAggAAAABAGAAAAAKAI=</HashCode>
+      <FileName>LaboratoriesCRUD.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lS" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment3.Login" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACAAAACAAQAAAAgEAgAAAAAAAA=</HashCode>
+      <FileName>Login.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment3.Program" Collapsed="true">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment3.Register" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAARCAAABAAACCAAEACAAAAAAAAAQAgQCAAABA=</HashCode>
+      <FileName>Register.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="uS" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment3.StartUp" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgASAAAgAAAACAAAADAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StartUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment3.StudentAssignments" Collapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAACACAAAACAAggAAAIAAAEAAAAAAI=</HashCode>
+      <FileName>StudentAssignments.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="aS" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment3.StudentPanel" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAABAACACAAAACAAggAQAgAACgAAAAAAI=</HashCode>
+      <FileName>StudentPanel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lS" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment3.SubmissionsCRUD" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAACiAACBAAAACAAAACAAggAAAAhAAAQBIAAAI=</HashCode>
+      <FileName>SubmissionsCRUD.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sS" />
+      <Field Name="uS" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="users" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Assignment3.TeacherPanel" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAQAgQCAAACAAAACABAACCAAAAAAABAAgARAAAAA=</HashCode>
+      <FileName>TeacherPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment3.UsersCRUD" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAABAAACAAABAAAACABAACAAogCAAABAAAQAAACAI=</HashCode>
+      <FileName>UsersCRUD.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="uS" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment3.Properties.Resources" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment3.Properties.Settings" Collapsed="true">
+    <Position X="8" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLL.SubmissionServices" Collapsed="true">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BLL.AssignmentServices" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BLL.UserServices" Collapsed="true">
+    <Position X="12" Y="2.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BLL.Models.UserModel" Collapsed="true">
+    <Position X="12" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BLL.Models.LaboratoryModel" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BLL.Models.AssignmentModel" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BLL.LaboratoryServices" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BLL.AttendanceServices" Collapsed="true">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

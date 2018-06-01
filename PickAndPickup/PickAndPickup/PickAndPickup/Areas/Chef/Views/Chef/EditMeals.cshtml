@@ -1,0 +1,61 @@
+﻿@model PickAndPickup.Models.MealListModel
+@{
+    ViewBag.Title = "EditMeals";
+}
+
+<h2>EditMeals</h2>
+
+
+
+@if (@ViewBag.Message != null)
+{
+    <div style="border: 1px solid red">
+        @ViewBag.Message
+    </div>
+}
+<table>
+    @{
+        foreach (var item in Model.mm)
+        {
+            @Html.HiddenFor(a => item.ID)
+            <tr>
+                <td>@Html.LabelFor(a => item.Name)</td>
+                <td>@Html.DisplayFor(a => item.Name)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(a => item.Quantity)</td>
+                <td>@Html.DisplayFor(a => item.Quantity)</td>
+                <td>
+                    @using (Html.BeginForm("IncMeal", "Chef", new { orderID = ViewBag.orderID, mealID = item.ID }, FormMethod.Post, null))
+                    {
+                        <fieldset>
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+
+                            <input type="submit" value="+" />
+
+                        </fieldset>
+                    }
+                </td>
+                <td>
+                    @using (Html.BeginForm("DecMeal", "Chef", new { orderID = ViewBag.orderID, mealID = item.ID }, FormMethod.Post, null))
+                    {
+                        <fieldset>
+                            @Html.AntiForgeryToken()
+                            @Html.ValidationSummary(true)
+
+                            <input type="submit" value="-" />
+
+                        </fieldset>
+                    }
+                </td>
+            </tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+        }
+    }
+</table>

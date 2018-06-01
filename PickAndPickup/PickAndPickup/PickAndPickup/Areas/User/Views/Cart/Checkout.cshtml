@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Checkout";
+    Session["current QR"] = ViewBag.QR;
+}
+
+<h2>Order placed successfully!</h2>
+Order QR code: @ViewBag.QR
+<br>
+
+@Html.ActionLink("Go back", "GoBack")
+

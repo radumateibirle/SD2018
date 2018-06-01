@@ -1,0 +1,64 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+
+@model IPagedList<PickAndPickup.Models.UserModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>
+    Users
+</h2>
+
+<div class="container-fluid">
+    <table class="table">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Type
+            </th>
+            <th>
+                Number of orders
+            </th>
+            <th>
+                Date of birth
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            @Html.HiddenFor(a => item.ID)
+            <tr>
+                <td>
+                    @Html.DisplayFor(a => item.Name)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(a => item.Mail)
+                </td>
+                <td>
+                    @Html.DisplayFor(a => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(a => item.NrOrders)
+                </td>
+                <td>
+                    @Html.DisplayFor(a => item.DOB);
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { i = item.ID })
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { i = item.ID })
+                </td>
+
+            </tr>
+        }
+    </table>
+</div>

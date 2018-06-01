@@ -1,0 +1,65 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+
+@model IPagedList<PickAndPickup.Models.MealModel>
+
+@{
+    ViewBag.Title = "Menu";
+}
+
+<h2>Meals</h2>
+
+@using (Html.BeginForm("Index", "Menu", FormMethod.Post))
+{
+    <div class="container-fluid">
+        @if (Model.Count > 0)
+        {
+        <table class="table">
+            @foreach (var item in Model)
+            {
+                @Html.HiddenFor(a=>item.ID)
+                <tr>
+                    <td>
+                        @if (item.PhotoPath != null)
+                        {
+                            <img src="@Url.Content(@item.PhotoPath)" width="300" />
+                        }
+                    </td>
+
+                    <td>
+                        <table>
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(a => item.Name)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td> @Html.DisplayFor(a => item.Description)</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Price:
+                                    @Html.DisplayFor(a => item.Price)
+                                    RON
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Quantity:
+                                    @Html.DisplayFor(a => item.Quantity)
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>@Html.ActionLink("Add to cart", "AddToCart", new { id = item.ID })</td>
+                </tr>
+            }
+        </table>
+        }
+        else
+        {
+            <p>No Meals yet.</p>
+        }
+    </div>
+}

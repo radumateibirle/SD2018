@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataAccessLayer.Repository.AssignmentRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAQgAAAABA=</HashCode>
+      <FileName>Repository\AssignmentRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DB" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataAccessLayer.Repository.AttendanceRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAgAAAABA=</HashCode>
+      <FileName>Repository\AttendanceRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DB" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataAccessLayer.Repository.LaboratoryRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAgBAAABA=</HashCode>
+      <FileName>Repository\LaboratoryRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DB" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataAccessLayer.Repository.SubmissionRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAACAAAAAAAAAAAAEAAAAgAgAAgAEAABA=</HashCode>
+      <FileName>Repository\SubmissionRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DB" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataAccessLayer.Repository.UserRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAgAAAAAAAAAAAAAAGAAAAAAgAAgAAAABA=</HashCode>
+      <FileName>Repository\UserRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DB" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="DataAccessLayer.Assignment2Entities" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIgACCAAAIAAAAAAAAAAAAAEAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Model1.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccessLayer.Assignment" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAggQAAAAAAAAQAAAgAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccessLayer.Attendance" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAgQAAAAAAAAAAAAgAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Attendance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccessLayer.Laboratory" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAACAAAAggEAAAEAAAAAEAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Laboratory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccessLayer.Submission" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhAAAAAAAggAAAAAAAAQAAAAAAAAAAAAAAQAECAAA=</HashCode>
+      <FileName>Submission.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataAccessLayer.User" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAACAACAAgIAAAAAAAAAAAAAAAAQCAQAAAAABAAE=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DataAccessLayer.Contracts.IAssignmentRepo" Collapsed="true">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAQgAAAAAA=</HashCode>
+      <FileName>Contracts\IAssignmentRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.IAttendanceRepo" Collapsed="true">
+    <Position X="10.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAgAAAAAA=</HashCode>
+      <FileName>Contracts\IAttendanceRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.ILaboratoryRepo" Collapsed="true">
+    <Position X="12.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAgBAAAAA=</HashCode>
+      <FileName>Contracts\ILaboratoryRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.ISubmissionRepo" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAACAAAAAAAAAAAAEAAAAgAgAAgAEAAAA=</HashCode>
+      <FileName>Contracts\ISubmissionRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.IUserRepo" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAgAAAAAAAAAAAAAAGAAAAAAgAAgAAAAAA=</HashCode>
+      <FileName>Contracts\IUserRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

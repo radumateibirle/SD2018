@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment2.BussinessLogicLayer.Mapper.AssignmentMapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappers\AssignmentMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Mapper.AttendanceMapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappers\AttendanceMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Mapper.LaboratoryMapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappers\LaboratoryMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Mapper.SubmissionMapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappers\SubmissionMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Mapper.UserMapper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mappers\UserMapper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Models.AssignmentModel" Collapsed="true">
+    <Position X="12.25" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggAAAAAAAAAQAAAgAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Models\AssignmentModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Models.AttendanceModel" Collapsed="true">
+    <Position X="9.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\AttendanceModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Models.LaboratoryModel" Collapsed="true">
+    <Position X="3.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAggEAAAEAAAAAEAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LaboratoryModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Models.SubmissionModel" Collapsed="true">
+    <Position X="6.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAggAAAAAAAAAAAAAAAAAAAAAAAQAECAAA=</HashCode>
+      <FileName>Models\SubmissionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment2.BussinessLogicLayer.Models.UserModel" Collapsed="true">
+    <Position X="0.75" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgIAAAAAAAAAAAAAAAAQCAQAAAAABAAE=</HashCode>
+      <FileName>Models\UserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BussinessLogicLayer.Services.AssignmentServices" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAEAAAAAAAAAAAAAAAAAEAAABAAgAQgAAAAAA=</HashCode>
+      <FileName>Services\AssignmentServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="aMapper" />
+      <Field Name="aRepo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BussinessLogicLayer.Services.AttendanceServices" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAEAAAAAAAAAAAAAAAAAEAAABAAgAAgAAAAAA=</HashCode>
+      <FileName>Services\AttendanceServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="aMapper" />
+      <Field Name="aRepo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BussinessLogicLayer.Services.LaboratoryServices" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAIAAAAAAAAAAAAAAEAAAAACoAAgBAAAAA=</HashCode>
+      <FileName>Services\LaboratoryServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="lMapper" />
+      <Field Name="lRepo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BussinessLogicLayer.Services.SubmissionServices" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAACAAAAAAAAQAAAEAAAAAAhAAgAEAAAA=</HashCode>
+      <FileName>Services\SubmissionServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="sMapper" />
+      <Field Name="sRepo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BussinessLogicLayer.Services.UserServices" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAgAAAAAAAAAAAAAAGAAAAAAgUAgAAAAAA=</HashCode>
+      <FileName>Services\UserServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="uMapper" />
+      <Field Name="uRepo" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="Assignment2.BussinessLogicLayer.Contracts.IAssignmentMapper" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IAssignmentMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment2.BussinessLogicLayer.Contracts.IAttendanceMapper" Collapsed="true">
+    <Position X="8.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IAttendanceMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment2.BussinessLogicLayer.Contracts.ILaboratoryMapper" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ILaboratoryMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment2.BussinessLogicLayer.Contracts.ISubmissionMapper" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\ISubmissionMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment2.BussinessLogicLayer.Contracts.IUserMapper" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Contracts\IUserMapper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BussinessLogicLayer.Contracts.IAssignmentServices" Collapsed="true">
+    <Position X="12.25" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAQgAAAAAA=</HashCode>
+      <FileName>Contracts\IAssignmentServices.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BussinessLogicLayer.Contracts.IAttendanceServices" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAgAAAAAA=</HashCode>
+      <FileName>Contracts\IAttendanceServices.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BussinessLogicLayer.Contracts.ILaboratoryServices" Collapsed="true">
+    <Position X="3.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAIAAAAAAAAAAAAAAEAAAAAAgAAgBAAAAA=</HashCode>
+      <FileName>Contracts\ILaboratoryServices.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BussinessLogicLayer.Contracts.ISubmissionServices" Collapsed="true">
+    <Position X="6.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAACAAAAAAAAAAAAEAAAAAAgAAgAEAAAA=</HashCode>
+      <FileName>Contracts\ISubmissionServices.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="BussinessLogicLayer.Contracts.IUserServices" Collapsed="true">
+    <Position X="0.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAgAAAAAAAAAAAAAAGAAAAAAgAAgAAAAAA=</HashCode>
+      <FileName>Contracts\IUserServices.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.IAssignmentRepo" Collapsed="true">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.IAttendanceRepo" Collapsed="true">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.ISubmissionRepo" Collapsed="true">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.ILaboratoryRepo" Collapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="DataAccessLayer.Contracts.IUserRepo" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

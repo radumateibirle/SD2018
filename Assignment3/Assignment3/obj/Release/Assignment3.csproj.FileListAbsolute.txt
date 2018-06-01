@@ -1,0 +1,38 @@
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\bin\Release\Assignment3.exe.config
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\bin\Release\Assignment3.exe
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\bin\Release\Assignment3.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.csprojResolveAssemblyReference.cache
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.Properties.Resources.resources
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.StartUp.resources
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.csproj.GenerateResource.cache
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.exe
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.Login.resources
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.Register.resources
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.TeacherPanel.resources
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.UsersCRUD.resources
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\bin\Release\Assignment3.exe.config
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\bin\Release\Assignment3.exe
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\bin\Release\Assignment3.pdb
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\bin\Release\BLL.dll
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\bin\Release\Newtonsoft.Json.dll
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\bin\Release\BLL.pdb
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\bin\Release\Newtonsoft.Json.xml
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.csprojResolveAssemblyReference.cache
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.Login.resources
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.Properties.Resources.resources
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.Register.resources
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.StartUp.resources
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.TeacherPanel.resources
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.UsersCRUD.resources
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.csproj.GenerateResource.cache
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.csproj.CoreCompileInputs.cache
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.csproj.CopyComplete
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.exe
+D:\Andrei\Scoala\matei\Assignment3\Assignment3\obj\Release\Assignment3.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\bin\Release\BLL.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\bin\Release\Newtonsoft.Json.dll
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\bin\Release\BLL.pdb
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\bin\Release\Newtonsoft.Json.xml
+C:\Users\Radu Matei\Desktop\Facultate an3 sem2\SD\Assignment3\Assignment3\obj\Release\Assignment3.csproj.CopyComplete

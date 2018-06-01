@@ -1,0 +1,89 @@
+﻿<!-- jQuery UI CSS Reference -->
+<link href="@Url.Content("~/Content/themes/base/minified/jquery-ui.min.css")" rel="stylesheet" />
+<!-- Required jQuery and jQuery UI Javascript references -->
+<script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery-ui-1.10.4.min.js")"></script>
+
+<script type="text/javascript">
+    $(function () {
+        // This will make every element with the class "date-picker" into a DatePicker element
+        $('.date-picker').datepicker();
+    })
+</script>
+
+
+@model PickAndPickup.Models.UserModel
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+@using (Html.BeginForm("Edit", "User", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Edit</legend>
+        @Html.HiddenFor(a => a.ID)
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @if (@ViewBag.Message != null)
+        {
+            <div style="border: 1px solid red">
+                @ViewBag.Message
+            </div>
+        }
+        <table>
+            <tr>
+                <td>@Html.LabelFor(a => a.Name)</td>
+                <td>@Html.TextBoxFor(a => a.Name, new { required = "required" })</td>
+                <td>@Html.ValidationMessageFor(a => a.Name)</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(a => a.Mail)
+                </td>
+                <td>
+                    @Html.TextBoxFor(a => a.Mail, new { required = "required" })
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(a => a.Mail)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(a => a.NrOrders)
+                </td>
+                <td>
+                    @Html.TextBoxFor(a => a.NrOrders, new { required = "required" })
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(a => a.NrOrders)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(a => a.Type)
+                </td>
+                <td>
+                    @Html.TextBoxFor(a => a.Type, new { required = "required" })
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(a => a.Type)
+                </td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(a => a.DOB)</td>
+                <td>
+                    @Html.EditorFor(a => a.DOB, new { @class = "date-picker" })
+                </td>
+                <td>@Html.ValidationMessageFor(a => a.DOB)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Save" />
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </fieldset>
+}

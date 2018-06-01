@@ -1,0 +1,76 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+
+@model IPagedList<PickAndPickup.Models.MealModel>
+
+@{
+    ViewBag.Title = "Meals";
+}
+
+<h2>
+    Meals
+</h2>
+<div class="container-fluid">
+    <table class="table">
+        <tr>
+            <td>
+                @using (Html.BeginForm("AddMeal", "Admin", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true)
+
+                    <input type="submit" value="Add meal" />
+                }
+            </td>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+
+                    @if (item.PhotoPath != null)
+                    {
+                        <img src="@Url.Content(@item.PhotoPath)" width="300" />
+                    }
+                </td>
+
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(a => item.Name)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> @Html.DisplayFor(a => item.Description)</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Price:
+                                @Html.DisplayFor(a => item.Price)
+                                RON
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", new { i = item.ID })
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.ActionLink("Delete", "Delete", new { i = item.ID })
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                @Html.ActionLink("Change photo", "ChPhoto", new { i = item.ID })
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+
+            </tr>
+        }
+    </table>
+</div>

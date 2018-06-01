@@ -1,0 +1,57 @@
+﻿
+
+
+@model PickAndPickup.Models.RegisterModel
+@{
+    ViewBag.Title = "Register";
+}
+
+@using (Html.BeginForm("Register", "Home", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Register</legend>
+
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @if (@ViewBag.Message != null)
+        {
+            <div style="border: 1px solid red">
+                @ViewBag.Message
+            </div>
+        }
+        <table>
+            <tr>
+                <td>@Html.LabelFor(a => a.Mail)</td>
+                <td>@Html.TextBoxFor(a => a.Mail, new { required = "required" })</td>
+                <td>@Html.ValidationMessageFor(a => a.Mail)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(a => a.Password)</td>
+                <td>@Html.PasswordFor(a => a.Password, new { required = "required" })</td>
+                <td>@Html.ValidationMessageFor(a => a.Password)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(a => a.Name)</td>
+                <td>@Html.TextBoxFor(a => a.Name, new { required = "required" })</td>
+                <td>@Html.ValidationMessageFor(a => a.Name)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(a => a.DOB)</td>
+                <td>
+                    @Html.EditorFor(a => a.DOB, new {@class = "date-picker" })
+                </td>
+                <td>@Html.ValidationMessageFor(a => a.DOB)</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Register" />
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </fieldset>
+
+
+}
+

@@ -1,0 +1,16 @@
+﻿@model PickAndPickup.Models.MealModel
+@{
+    ViewBag.Title = "ChPhoto";
+}
+
+<h2>Change photo</h2>
+@using (Html.BeginForm("ChPhoto", "Meals", new { i = Model.ID }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    <label for="file">Upload Image:</label>
+    <input type="file" name="file" id="file" /><br><br>
+    <input type="submit" value="Upload Image" />
+    <br><br>
+    @ViewBag.Message
+}

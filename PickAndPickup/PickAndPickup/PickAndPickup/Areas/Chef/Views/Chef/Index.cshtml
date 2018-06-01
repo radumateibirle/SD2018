@@ -1,0 +1,18 @@
+﻿@model PickAndPickup.Models.QRmodel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Scan QR code!</h2>
+
+@using (Html.BeginForm("Scan", "Chef", FormMethod.Post))
+{
+<fieldset>
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    @Html.EditorFor(a => a.QRcode, new { required = "required" })
+    <input type="submit" value="Scan!" />
+
+</fieldset>
+}

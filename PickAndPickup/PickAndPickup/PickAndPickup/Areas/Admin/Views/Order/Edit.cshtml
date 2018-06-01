@@ -1,0 +1,74 @@
+﻿<!-- jQuery UI CSS Reference -->
+<link href="@Url.Content("~/Content/themes/base/minified/jquery-ui.min.css")" rel="stylesheet" />
+<!-- Required jQuery and jQuery UI Javascript references -->
+<script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery-ui-1.10.4.min.js")"></script>
+
+<script type="text/javascript">
+    $(function () {
+        // This will make every element with the class "date-picker" into a DatePicker element
+        $('.date-picker').datepicker();
+    })
+</script>
+
+
+@model PickAndPickup.Models.OrderModel
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+@using (Html.BeginForm("Edit", "Order", FormMethod.Post))
+{
+    <fieldset>
+        <legend>Edit</legend>
+        @Html.HiddenFor(a => a.ID)
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @if (@ViewBag.Message != null)
+        {
+            <div style="border: 1px solid red">
+                @ViewBag.Message
+            </div>
+        }
+        <table>
+            @Html.HiddenFor(a => a.User.ID)
+            <tr>
+                <td>@Html.LabelFor(a => a.User.Name)</td>
+                <td>@Html.DisplayFor(a => a.User.Name)</td>
+            </tr>
+            <tr>
+                <td>@Html.LabelFor(a => a.Date)</td>
+                <td>
+                    @Html.EditorFor(a => a.Date, new { @class = "date-picker" })
+                </td>
+                <td>@Html.ValidationMessageFor(a => a.Date)</td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(a => a.QRCodePath)
+                </td>
+                <td>
+                    @Html.DisplayFor(a => a.QRCodePath)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(a => a.EstimatedTime)
+                </td>
+                <td>
+                    @Html.DisplayFor(a => a.EstimatedTime)
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Save" />
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </fieldset>
+}

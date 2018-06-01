@@ -1,0 +1,70 @@
+﻿@model PickAndPickup.Models.MealModel
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm("Edit", "Admin", FormMethod.Post))
+{
+<fieldset>
+    <legend>Edit</legend>
+    @Html.HiddenFor(a => a.ID)
+    @Html.HiddenFor(a => a.PhotoPath)
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+    @if (@ViewBag.Message != null)
+    {
+        <div style="border: 1px solid red">
+            @ViewBag.Message
+        </div>
+    }
+    <table>
+        <tr>
+            <td>@Html.LabelFor(a => a.Name)</td>
+            <td>@Html.TextBoxFor(a => a.Name, new {required = "required" })</td>
+            <td>@Html.ValidationMessageFor(a => a.Name)</td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(a => a.Description)
+            </td>
+            <td>
+                @Html.TextBoxFor(a => a.Description, new { required = "required" })
+            </td>
+            <td>
+                @Html.ValidationMessageFor(a => a.Description)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(a => a.Price)
+            </td>
+            <td>
+                @Html.TextBoxFor(a => a.Price, new { required = "required" })
+            </td>
+            <td>
+                @Html.ValidationMessageFor(a => a.Price)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.LabelFor(a => a.Quantity)
+            </td>
+            <td>
+                @Html.TextBoxFor(a => a.Quantity, new { required = "required" })
+            </td>
+            <td>
+                @Html.ValidationMessageFor(a => a.Quantity)
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Save" />
+            </td>
+            <td></td>
+        </tr>
+    </table>
+</fieldset>
+}

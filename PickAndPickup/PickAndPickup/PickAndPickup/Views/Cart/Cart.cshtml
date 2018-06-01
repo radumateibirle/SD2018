@@ -1,0 +1,78 @@
+﻿@model List<PickAndPickup.Models.MealModel>
+
+@{
+    ViewBag.Title = "Cart";
+}
+<h1>Your Cart</h1>
+
+
+@using (Html.BeginForm("Checkout", "Cart", FormMethod.Post))
+{
+    <div class="container-fluid">
+
+        <table class="table">
+
+            @if (Model != null)
+            {
+                <tr>
+                    <th>
+                        Product
+                    </th>
+                    <th>
+                        Quantity
+                    </th>
+                    <th>
+                        Price
+                    </th>
+
+                    <th></th>
+                </tr>
+                foreach (var item in Model)
+                {
+                    @Html.HiddenFor(a => item.ID)
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(a => item.Name)
+                        </td>
+
+                        <td>
+                            @Html.DisplayFor(a => item.Quantity)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(a => item.Price)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Delete", "Delete", new { i = item.ID })
+                        </td>
+
+                    </tr>
+                }
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        Total:
+                        @{
+                            int sum = 0;
+                            foreach (var item in Model)
+                            {
+                                sum += item.Price * item.Quantity;
+                            }
+                        } @sum RON
+                    </td>
+
+                    <td>
+                        <input type="submit" value="Checkout" />
+                    </td>
+                </tr>
+            }
+            @if (Model == null)
+            {
+                <tr>
+                    <td>Go to menu and buy stuff</td>
+                </tr>
+            }
+
+        </table>
+    </div>
+}

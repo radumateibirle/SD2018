@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Assignment1.DataLayer.Models.ShowDTO" Collapsed="true">
+    <Position X="13" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAQgAgAAAhETAAAIAAAAABAAAAAABAAAAAAQACAA=</HashCode>
+      <FileName>DataLayer\Models\ShowDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment1.DataLayer.Models.TicketDTO" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAGIkAAgACAAABAAAAAAAAgAgAAAAAAAAAACAA=</HashCode>
+      <FileName>DataLayer\Models\TicketDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment1.DataLayer.Models.UserDTO" Collapsed="true">
+    <Position X="11.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAgACAAQAIAAIwAAAAAAACAAAAAAAACII=</HashCode>
+      <FileName>DataLayer\Models\UserDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment1.DataLayer.Repositories.ShowRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAABAAAAAAAAAQAAACAAAAiAEAABAAAAAAAQ=</HashCode>
+      <FileName>DataLayer\Repositories\ShowRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="showsList" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment1.DataLayer.Repositories.TicketRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAACIAgAAAAAAAAAAAAQAIAAAAEAAAABAAAgAAAA=</HashCode>
+      <FileName>DataLayer\Repositories\TicketRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="ticketsList" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment1.DataLayer.Repositories.UserRepo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAIAwABAAAAAAAAAAAAAAIAAAAAAABBAAAAAAA=</HashCode>
+      <FileName>DataLayer\Repositories\UserRepo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="usersList" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Assignment1.PresentationLayer.Admin" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAAgBCQAIrAAADCCFACkCAACACnSABIAGQUHAYwsAgI=</HashCode>
+      <FileName>PresentationLayer\Admin.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userServices" />
+      <Field Name="showServices" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment1.PresentationLayer.Cashier" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAwAHYACiAAEBAAAECACABjAAICAIAAAoAAAQAAAAA=</HashCode>
+      <FileName>PresentationLayer\Cashier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ticketServices" />
+      <Field Name="showServices" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Assignment1.PresentationLayer.Login" Collapsed="true">
+    <Position X="9" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABCAAACAAAACIAQQAAAgAAAAAQAAAAA=</HashCode>
+      <FileName>PresentationLayer\Login.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="userServices" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WindowsFormsApp1.Program" Collapsed="true">
+    <Position X="5" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Models.ShowModel" Collapsed="true">
+    <Position X="5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAAAAQgAgAAChETAAAIAAAAABAAAAAABAAAAAAQACAA=</HashCode>
+      <FileName>ServicesLayer\Models\ShowModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Models.TicketModel" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAGIkACgACAgABAAAAAAAAgAgAAAAAAAAAACAA=</HashCode>
+      <FileName>ServicesLayer\Models\TicketModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Models.UserModel" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAACgACCAQAIAAIwAAAAAAACAAAgAAAgCAI=</HashCode>
+      <FileName>ServicesLayer\Models\UserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.ExportCSV" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>ServicesLayer\Services\ExportCSV.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.ExportFactory" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Services\ExportFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.49" />
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.ExportXML" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Services\ExportXML.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.ShowMap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Services\ShowMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.ShowServices" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <AssociationLine Name="repository" Type="Assignment1.DataLayer.Contracts.IShowRepo">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.907" Y="0.099" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIABKAAAAAAAAAQAECICAAAAAAAAAAAAGAAA=</HashCode>
+      <FileName>ServicesLayer\Services\ShowServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repository" />
+      <Field Name="mapper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.TicketMap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Services\TicketMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.TicketServices" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="3.75" Width="1.5" />
+    <AssociationLine Name="repository" Type="Assignment1.DataLayer.Contracts.ITicketRepo">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.921" Y="0.092" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAKAAAAIAAAAQAEIAAAAEAAAAAAAAAGABA=</HashCode>
+      <FileName>ServicesLayer\Services\TicketServices.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repository" />
+      <Field Name="mapper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.UserMap" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Services\UserMap.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Assignment1.ServicesLayer.Services.UserService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <AssociationLine Name="repository" Type="Assignment1.DataLayer.Contracts.IUserRepo">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.939" Y="0.142" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAKAAAAAAAAAQAEIAAAQAAAAAAAAAAGEAA=</HashCode>
+      <FileName>ServicesLayer\Services\UserService.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="repository" />
+      <Field Name="mapper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Assignment1.DataLayer.Contracts.IShowRepo" Collapsed="true">
+    <Position X="18" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAQAAACAAAACAAAAAAAAAAAAQ=</HashCode>
+      <FileName>DataLayer\Contracts\IShowRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.DataLayer.Contracts.ITicketRepo" Collapsed="true">
+    <Position X="18" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAQAIAAAAEAAAAAAAAgAAAA=</HashCode>
+      <FileName>DataLayer\Contracts\ITicketRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.DataLayer.Contracts.IUserRepo" Collapsed="true">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAwAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>DataLayer\Contracts\IUserRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.ServicesLayer.Contracts.IExportFactory" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Contracts\IExportFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.ServicesLayer.Contracts.IExportFile">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Contracts\IExportFile.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.ServicesLayer.Contracts.IShowMap" Collapsed="true">
+    <Position X="16.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Contracts\IShowMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.ServicesLayer.Contracts.IShowService" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIABAAAAAAAAAAQAECICAAAAAAAAAAAAGAAA=</HashCode>
+      <FileName>ServicesLayer\Contracts\IShowService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.ServicesLayer.Contracts.ITicketMap" Collapsed="true">
+    <Position X="16.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Contracts\ITicketMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.ServicesLayer.Contracts.ITicketService" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAQAEIAAAAEAAAAAAAAAGABA=</HashCode>
+      <FileName>ServicesLayer\Contracts\ITicketService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.ServicesLayer.Contracts.IUserMap" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServicesLayer\Contracts\IUserMap.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Assignment1.ServicesLayer.Contracts.IUserService" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAQAEIAAAQAAAAAAAAAAGEAA=</HashCode>
+      <FileName>ServicesLayer\Contracts\IUserService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

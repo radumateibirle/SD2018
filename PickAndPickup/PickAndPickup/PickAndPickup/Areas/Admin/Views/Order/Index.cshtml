@@ -1,0 +1,84 @@
+﻿@using PagedList.Mvc;
+@using PagedList;
+
+@model IPagedList<PickAndPickup.Models.OrderModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div class="container-fluid">
+    <table class="table">
+        <tr>
+            <th>
+                Client name
+            </th>
+            <th>
+                Date
+            </th>
+            <th>
+                Code
+            </th>
+            <th>
+                Estimated time
+            </th>
+            <th>
+                Meals
+            </th>
+            <th>
+                Total price
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            @Html.HiddenFor(a => item.ID)
+        <tr>
+            <td>
+                @Html.DisplayFor(a => item.User.Name)
+            </td>
+
+            <td>
+                @Html.DisplayFor(a => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(a => item.QRCodePath)
+            </td>
+            <td>
+                @Html.DisplayFor(a => item.EstimatedTime)
+            </td>
+            <td>
+                <table>
+                    @foreach (var meal in item.Meals)
+                    {
+                        @Html.HiddenFor(a => meal.ID)
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(a => meal.Quantity)
+                                X
+                                @Html.DisplayFor(a => meal.Name)
+                            </td>
+                        </tr>
+                    }
+                </table>
+            </td>
+
+            <td>
+                @Html.DisplayFor(a => item.TotalPrice) RON
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { i = item.ID })
+            </td>
+            <td>
+                @Html.ActionLink("Edit meals", "EditMeals", new { i = item.ID })
+            </td>
+            <td>
+                @Html.ActionLink("Delete", "Delete", new { i = item.ID })
+            </td>
+
+        </tr>
+        }
+    </table>
+</div>
+
